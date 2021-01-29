@@ -1,0 +1,21 @@
+hero:
+  enable: true
+  bg_image: "images/hero-100.jpg"
+
+
+columns:
+  enable: true
+  title: Our Services
+  columns:
+    -
+      title: Mobile App Development
+      icon: images/service-1.svg
+      content: We listen to your true needs and build the best mobile solution that suits to your business. Need to build a new system or improve your current system? Our professionals are here to help.
+    -
+      title: Website Building
+      icon: images/service-2.svg
+      content: Design and develop website for small business and individual. We make your business reachable from the Internet.
+    -
+      title: Web App Development
+      icon: images/service-3.svg
+      content: The development of reliable software solutions for the Internet. We bring together deep industry expertise and the latest IT advancements to deliver custom solutions and products that perfectly fit the needs and behavior of their users.

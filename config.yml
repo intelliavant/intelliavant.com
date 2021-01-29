@@ -1,0 +1,7 @@
+baseURL: "https://intelliavant.com/"
+languageCode: "en-us"
+title: "Intelliavant"
+logo: "logo.png"
+theme: "avalanche"
+params:
+  logo: images/logo.png

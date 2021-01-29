@@ -1,0 +1,21 @@
+{{ $data := site.Data.footer }}
+
+<footer>
+  <div class="container mt-5">
+    <div class="row">
+    {{ range $data.columns }}
+      <div class="col-sm">
+        {{ range .links }}
+        <div>
+          <a href="{{ .href }}">{{ .title }}</a>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="row">
+      {{ $data.copyright }}
+    </div>
+  </div>
+</footer>

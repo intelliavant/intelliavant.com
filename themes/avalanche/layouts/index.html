@@ -1,3 +1,45 @@
 {{ define "main" }}
+
+{{ $data := site.Data.homepage }}
+
+<!-- hero -->
+{{ if $data.hero.enable }} 
+{{ with $data.hero }}
+<section class="hero-section">
+  <div class="container-fluid" style="background-image: url({{ .bg_image }})">
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+<!-- columns -->
+{{ if $data.columns.enable }}
+{{ with $data.columns }}
+<section class="columns-section">
+  <div class="container">
+    <div class="row my-3">
+      <h2 class="display-4 text-center">{{ .title }}</h2>
+    </div>
+    <div class="row gx-5">
+      {{ range .columns }}
+      <div class="col-sm column">
+        <div class="column-icon-row text-center my-3">
+          <img class="column-icon" src="{{ .icon }}">
+        </div>
+        <h3 class="text-center my-3">{{ .title }}</h3>
+        <p>{{ .content }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+<div class="container">
 {{ .Content }}
+</div>
+
 {{ end }}
