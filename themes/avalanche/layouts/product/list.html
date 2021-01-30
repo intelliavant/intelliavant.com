@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+<section class="product-list-section">
+
+<div class="container">
+
+
+  <div class="row">
+    <div class="col-sm">
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Content }}</p>
+    </div>
+  </div>
+
+  <div class="row">
+    {{ range .Pages }}
+    <div class="col-sm-4">
+      <div class="card product-card">
+        <img src="{{ .Params.header_image }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ .Title }}</h5>
+          <p class="card-text">{{ .Params.Description }}</p>
+          <a href="#" class="btn btn-primary">Visit</a>
+        </div>
+      </div>
+    </div>
+
+    {{ end }}
+
+  </div>
+
+</div>
+
+
+</section>
+
+{{ end }}

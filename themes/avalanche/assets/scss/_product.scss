@@ -14,3 +14,14 @@
   }
 
 }
+
+.product-list-section {
+  .product-card {
+    min-height: 360px;
+    img {
+      max-width: 100%;
+      height: 160px;
+    }
+  }
+
+}
