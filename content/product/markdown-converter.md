@@ -1,7 +1,6 @@
 ---
 title: "Markdown Converter"
 date: 2021-01-29T01:57:15-05:00
-draft: true
 type: product
 header_image: /images/product/markdown-converter/intro-image.png
 description: Markdown Converter is a simple Google Docs add-on. It converts the Markdown syntax in selected content into Google Docs styles.
