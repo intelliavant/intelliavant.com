@@ -40,7 +40,7 @@ This add-on does not collect nor share any information about the user or the doc
 
 The following scopes are required in this add-on:
 
-https://www.googleapis.com/auth/documents - View and manage your Google Docs documents. This is used to access the paragraphs in the document and convert them.
+- `https://www.googleapis.com/auth/documents.currentonly` - View and manage documents that this application has been installed on. This is used to access the paragraphs in the documents and convert them.
 
 
 ## Terms of Service
