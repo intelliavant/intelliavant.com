@@ -2,17 +2,21 @@
 @import '_product.scss';
 @import '_markdown.scss';
 
+$primaryColor: #0f75bc;
+
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: #fff;
   margin: 0;
   padding: 0;
+  min-width: 1200px;
 }
 
 header {
   height: 64px;
   border-bottom: 1px solid #ccc;
 }
+
 
 section {
   margin-bottom: 48px;
@@ -28,9 +32,31 @@ footer {
     color: #aaa;
   }
 
-  a:link {
+  a {
     color: #fff;
     text-decoration: none;
+  }
+
+  a:visited {
+    color: #fff;
+  }
+
+  a:hover {
+    text-decoration: underline;
+
+  }
+}
+
+nav {
+  &>a {
+    text-decoration: none;
+    margin: 0 2rem;
+    font-weight: bold;
+    color: $primaryColor;
+
+    &:visited {
+      color: $primaryColor;
+    }
   }
 
 

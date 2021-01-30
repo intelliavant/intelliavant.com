@@ -3,15 +3,13 @@
     <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}">
   </a>
   <nav>
-    <a href="/" class="p-2 text-dark">Home</a>
-    <a href="#" class="p-2 text-dark" data-bs-toggle="dropdown">Products</a>
+    <a href="/" class="p-2">Home</a>
+    <a href="#" class="p-2" data-bs-toggle="dropdown">Products</a>
+    <a href="/about" class="p-2">About Us</a>
     <ul class="dropdown-menu">
-      {{ range .Data.Pages }}
-      {{ .}}
+      {{ range where site.RegularPages "Type" "product" }}
+      <li><a href="{{ .Permalink }}" class="dropdown-item">{{ .Title }}</a></li>
       {{ end }}
-      
-      <li><a href="#" class="dropdown-item">A</a></li>
-      <li><a href="#" class="dropdown-item">B</a></li>
     </ul>
   </nav>
 </header>

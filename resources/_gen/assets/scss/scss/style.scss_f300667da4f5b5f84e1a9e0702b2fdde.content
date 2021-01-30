@@ -40,7 +40,8 @@ body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: #fff;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  min-width: 1200px; }
 
 header {
   height: 64px;
@@ -56,9 +57,21 @@ footer {
   footer .copyright {
     font-size: 14px;
     color: #aaa; }
-  footer a:link {
+  footer a {
     color: #fff;
     text-decoration: none; }
+  footer a:visited {
+    color: #fff; }
+  footer a:hover {
+    text-decoration: underline; }
+
+nav > a {
+  text-decoration: none;
+  margin: 0 2rem;
+  font-weight: bold;
+  color: #0f75bc; }
+  nav > a:visited {
+    color: #0f75bc; }
 
 .hero-section {
   height: 480px; }
