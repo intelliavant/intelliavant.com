@@ -20,6 +20,10 @@ Select any text that contains markdown syntax, then click the **Convert** button
 
 If you are not happy with the conversion, you can always use `Ctrl-Z` (on Windows) or `Command-Z` (on MacOS) to undo the conversion.
 
+{{<youtube 2giUqEuZlEo>}}
+
+## Supported Markdown Syntax
+
 The following markdown syntax is supported:
 
 Markdown syntax | Converted styles
@@ -41,6 +45,7 @@ This add-on does not collect nor share any information about the user or the doc
 The following scopes are required in this add-on:
 
 - `https://www.googleapis.com/auth/documents.currentonly` - View and manage documents that this application has been installed on. This is used to access the paragraphs in the documents and convert them.
+- `https://www.googleapis.com/auth/script.container.ui` - Create the add-on sidebar which contains the **Convert** button to trigger the conversion.
 
 
 ## Terms of Service
