@@ -3,6 +3,9 @@
     {{- partial "head.html" . -}}
     <body class="min-vh-100 d-flex flex-column">
         {{- partial "header.html" . -}}
+        {{ if not .IsHome }}
+        {{ partial "page-header.html" . }}
+        {{ end }}
         <main id="content" class="flex-grow-1">
         {{- block "main" . }}{{- end }}
         </main>

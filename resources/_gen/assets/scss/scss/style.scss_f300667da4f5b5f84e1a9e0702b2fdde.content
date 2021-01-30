@@ -1,4 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+.product-section .intro-image {
+  margin-bottom: 3rem; }
+  .product-section .intro-image img {
+    width: 100%; }
+
+.product-section h1 {
+  margin-top: 5rem;
+  margin-bottom: 2rem; }
+
+.content h1 {
+  margin-top: 4rem;
+  margin-bottom: 2rem; }
+
+.content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+.content table {
+  border-collapse: collapse;
+  margin-bottom: 1rem; }
+  .content table th, .content table td {
+    border: 1px solid #ccc;
+    padding: 4px 8px; }
+
+.content blockquote {
+  background: #f0f0f0;
+  padding-top: 8px;
+  padding-bottom: 2px;
+  padding-left: 16px;
+  border-left: 8px solid #e0e0e0; }
+
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: #fff;
@@ -6,7 +37,8 @@ body {
   padding: 0; }
 
 header {
-  height: 80px; }
+  height: 64px;
+  border-bottom: 1px solid #ccc; }
 
 section {
   margin-bottom: 48px; }
@@ -15,6 +47,9 @@ footer {
   min-height: 240px;
   background: #333;
   color: #fff; }
+  footer .copyright {
+    font-size: 14px;
+    color: #aaa; }
 
 .hero-section {
   height: 480px; }
@@ -29,3 +64,14 @@ footer {
 .columns-section .column .column-icon {
   max-width: 80px;
   max-height: 80px; }
+
+.breadcrumb-bar {
+  height: 48px;
+  margin-top: 12px; }
+  .breadcrumb-bar ul.breadcrumb li {
+    margin-right: 8px; }
+  .breadcrumb-bar ul.breadcrumb li::after {
+    content: '>';
+    margin-left: 8px; }
+  .breadcrumb-bar ul.breadcrumb li:last-child::after {
+    content: ''; }

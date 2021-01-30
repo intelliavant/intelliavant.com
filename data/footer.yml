@@ -5,5 +5,8 @@ columns:
         title: About Us
         href: /about
 
+      -
+        title: Products
+        href: /product
 
 copyright: "(c) Copyrigth 2018-2021, Intelliavant Technologies, Ltd."

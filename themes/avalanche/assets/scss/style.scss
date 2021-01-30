@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import '_product.scss';
+@import '_markdown.scss';
 
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -8,7 +10,8 @@ body {
 }
 
 header {
-  height: 80px;
+  height: 64px;
+  border-bottom: 1px solid #ccc;
 }
 
 section {
@@ -19,6 +22,11 @@ footer {
   min-height: 240px;
   background: #333;
   color: #fff;
+
+  .copyright {
+    font-size: 14px;
+    color: #aaa;
+  }
 }
 
 .hero-section {
@@ -45,4 +53,25 @@ footer {
 
   }
 
+}
+
+
+.breadcrumb-bar {
+  height: 48px;
+  margin-top: 12px;
+
+  ul.breadcrumb {
+    li {
+      margin-right: 8px;
+    }
+
+    li::after {
+      content: '>';
+      margin-left: 8px;
+    }
+
+    li:last-child::after {
+      content: '';
+    }
+  }
 }
