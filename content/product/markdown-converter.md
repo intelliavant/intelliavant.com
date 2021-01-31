@@ -3,10 +3,10 @@ title: "Markdown Converter"
 date: 2021-01-29T01:57:15-05:00
 type: product
 header_image: /images/product/markdown-converter/intro-image.png
-description: Markdown Converter is a simple Google Docs add-on. It converts the Markdown syntax in selected content into Google Docs styles.
+description: Markdown Converter is a simple Google Docs add-on. It converts Markdown syntax in selected content into Google Docs styles.
 ---
 
-Markdown Converter is a simple Google Docs add-on. It converts the Markdown syntax in selected content into Google Docs styles.
+Markdown Converter is a simple Google Docs add-on. It converts Markdown syntax in selected content to Google Docs styles.
 
 ## Usage
 
@@ -38,9 +38,11 @@ The following syntax is not and will not be supported since Google Docs has nati
 - Ordered list
 - Unordered list
 
-## Privacy policy
+## Privacy Policy
 
 This add-on does not collect nor share any information about the user or the document. During the conversion, the document content is accessed, but no content will be stored.
+
+Markdown Converter's use of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes), including the Limited Use requirements.”
 
 The following scopes are required in this add-on:
 
