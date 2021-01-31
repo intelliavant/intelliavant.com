@@ -4,6 +4,10 @@
 
 $primaryColor: #0f75bc;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-color: #fff;
@@ -13,8 +17,27 @@ body {
 }
 
 header {
-  height: 64px;
+  background: #fff;
+  height: 96px;
+  transition: height ease-in-out 0.3s;
   border-bottom: 1px solid #ccc;
+
+  .logo {
+    height: 48px;
+    transition: height ease-in-out 0.3s;
+  }
+
+  &.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+
+    .logo {
+      height: 32px;
+    }
+  }
 }
 
 
@@ -90,6 +113,12 @@ nav {
 
 
 .page-header {
-  height: 48px;
-  margin-top: 12px;
+
+  .intro-image {
+    img {
+      width: 100%;
+    }
+    margin-bottom: 3rem;
+  }
+
 }

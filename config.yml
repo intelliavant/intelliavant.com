@@ -3,4 +3,4 @@ languageCode: "en-us"
 title: "Intelliavant"
 theme: "avalanche"
 params:
-  logo: /images/logo.png
+  logo: /images/logo.svg
