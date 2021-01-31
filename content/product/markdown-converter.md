@@ -6,7 +6,13 @@ header_image: /images/product/markdown-converter/intro-image.png
 description: Markdown Converter is a simple Google Docs add-on. It converts Markdown syntax in selected content into Google Docs styles.
 ---
 
-Markdown Converter is a simple Google Docs add-on. It converts Markdown syntax in selected content to Google Docs styles.
+Markdown Converter is a simple Google Docs add-on. It does only one thing: converting Markdown syntax in selected content to Google Docs styles.
+
+## Background
+
+The reason why Markdown Converter was created is that Google Docs does not support Markdown-style formats that allows quickly typing source codes. For example, to enter `variableName`, you need to first enter "varibleName", then select the text with your mouse, and choose a monospace font from the font menu. This has to be done repeatly especially when writing technical documents.
+
+Due to technical limitations, it is not possible to convert Markdown syntax when typing. So Markdown Converter has to choose a less convenient way, to convert selected text. Although not ideal, it still provides a lot of convenience than the native styling tools.
 
 ## Usage
 
@@ -26,7 +32,7 @@ If you are not happy with the conversion, you can always use `Ctrl-Z` (on Window
 
 The following markdown syntax is supported:
 
-Markdown syntax | Converted styles
+Markdown syntax | Converted style
 ----------------|--------------------
  `**bold**`     | **bold**
  `*italic*` | *italic*
