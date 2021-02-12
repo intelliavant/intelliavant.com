@@ -55,26 +55,25 @@ This page informs you of our policies regarding the collection, use, and disclos
 We use your personal data only for providing the features of the app. By using the app, you agree to the collection and use of information in accordance with this policy.
 
 
-### Current Document Content
+**Current Document Content**
 
 The app accesses the document content where the app is running to provide the service.
 The document content will be accessed, converted, and written back the current document.
 We do not store your document content anywhere, nor we share your document content in any way.
 
-### Google Docs UI
+**Google Docs UI**
 
 The app needs to access your Google Docs UI to create a sidebar for hosting the UI of this app. It will not change any part of the Google Docs UI other than the sidebar.
 
 
-### Google OAuth Scopes
+**Google OAuth Scopes**
 
 The following scopes are required to use this app:
 
 - `https://www.googleapis.com/auth/documents.currentonly` - View and manage documents that this app has been installed on. This is used to access the document content for conversion.
 - `https://www.googleapis.com/auth/script.container.ui` - Create the add-on sidebar which contains the **Convert** button to trigger the conversion.
 
-
-### Changes To This Privacy Policy
+**Changes To This Privacy Policy**
 
 This Privacy Policy is effective as of (add date) and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.
 
