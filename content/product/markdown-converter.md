@@ -46,27 +46,50 @@ The following syntax is not and will not be supported since Google Docs has nati
 
 ## Privacy Policy
 
-This add-on does not collect nor share any information about the user or the document. During the conversion, the document content is accessed, but no content will be stored.
+Last updated: Feb 12th, 2011
 
-Markdown Converter's use of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes), including the Limited Use requirements.”
+Intelliavant Technologies, Ltd ("us", "we", or "our") is the creator of Markdown Converter ("the app", or "it"), a Google Docs add-on.
+This page informs you of our policies regarding the collection, use and disclosure of Personal Data we receive from users of the app.
 
-The following scopes are required in this add-on:
+We use your personal data only for providing the features of the app. By using the app, you agree to the collection and use of information in accordance with this policy.
 
-- `https://www.googleapis.com/auth/documents.currentonly` - View and manage documents that this application has been installed on. This is used to access the paragraphs in the documents and convert them.
+
+### Current Document Content
+
+The app accesses the document content where the app is running in order to provide the service. The document content will be accessed, converted and written back the current document. We will not store your document content.
+
+### Google Docs UI
+
+The app needs to access your Google Docs UI to create a sidebar for hosting the UI of this app. It will not change any part of the Google Docs UI other than the sidebar.
+
+
+### Google OAuth Scopes
+
+The following scopes are required to use this app:
+
+- `https://www.googleapis.com/auth/documents.currentonly` - View and manage documents that this app has been installed on. This is used to access the document content for conversion.
 - `https://www.googleapis.com/auth/script.container.ui` - Create the add-on sidebar which contains the **Convert** button to trigger the conversion.
+
+
+### Changes To This Privacy Policy
+
+This Privacy Policy is effective as of (add date) and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.
+
+We reserve the right to update or change our Privacy Policy at any time without previous notice and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.
 
 
 ## Terms of Service
 
-The use of the Markdown Converter add-on (Add-on) is conditioned to the acceptance and compliance to these Terms of Service (Terms). By installing and using the Add-on you (User) agree to be bound to these Terms.
+The use of the Markdown Converter ("the app"), developed by Intelliavant Technologies, Ltd. ("us", "we", or "our") is conditioned to the acceptance and compliance to these Terms of Service (Terms). By installing and using the app, you ("the user") agree to be bound to these Terms.
 
 **Disclaimer**
 
-The Add-on is provided 'as is' and the its developer (Developer)  makes no promise and is not obligated to add features, fix bugs or unintended behavior, adapt functionalities, or keep current functionalities.
+The app is provided 'as is' and we makes no promise and is not obligated to add features, fix bugs or unintended behavior, adapt functionalities, or keep current functionalities.
 
 **Limitations**
 
-The Developer can not be held liable for any issues, damages or corruption to the user's document or any consequences of those problems. The Developer is not responsible if the User uses the Add-on it to infringe laws, rules, intellectual properties, etc. The User is the solely responsible for their creations and files even if the Add-on was used at some point.
+We can not be held liable for any issues, damages or corruption to the user's document or any consequences of those problems.
+We are not responsible if the user uses the app it to infringe laws, rules, intellectual properties, etc. The User is the solely responsible for their creations and files even if the Add-on was used at some point.
 
 **Software changes and discontinuation**
 
