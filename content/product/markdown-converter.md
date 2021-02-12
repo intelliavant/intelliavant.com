@@ -44,19 +44,22 @@ The following syntax is not and will not be supported since Google Docs has nati
 - Ordered list
 - Unordered list
 
+
 ## Privacy Policy
 
 Last updated: Feb 12th, 2011
 
 Intelliavant Technologies, Ltd ("us", "we", or "our") is the creator of Markdown Converter ("the app", or "it"), a Google Docs add-on.
-This page informs you of our policies regarding the collection, use and disclosure of Personal Data we receive from users of the app.
+This page informs you of our policies regarding the collection, use, and disclosure of Personal Data we receive from users of the app.
 
 We use your personal data only for providing the features of the app. By using the app, you agree to the collection and use of information in accordance with this policy.
 
 
 ### Current Document Content
 
-The app accesses the document content where the app is running in order to provide the service. The document content will be accessed, converted and written back the current document. We will not store your document content.
+The app accesses the document content where the app is running to provide the service.
+The document content will be accessed, converted, and written back the current document.
+We do not store your document content anywhere, nor we share your document content in any way.
 
 ### Google Docs UI
 
