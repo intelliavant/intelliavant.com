@@ -47,6 +47,7 @@ The following syntax is not and will not be supported since Google Docs has nati
 - Unordered list
 
 
+
 ## Privacy Policy
 
 Last updated: Feb 12th, 2011
@@ -92,7 +93,7 @@ The app is provided 'as is' and we makes no promise and is not obligated to add 
 
 **Limitations**
 
-We can not be held liable for any issues, damages or corruption to the user's document or any consequences of those problems.
+We cannot be held liable for any issues, damages or corruption to the user's document or any consequences of those problems.
 We are not responsible if the user uses the app it to infringe laws, rules, intellectual properties, etc. The User is the solely responsible for their creations and files even if the Add-on was used at some point.
 
 **Software changes and discontinuation**
@@ -106,3 +107,9 @@ The User can stop using the Add-on at any time by simply uninstalling it.
 **Terms of Service changes**
 
 These Terms can be revised at any time without previous notice. If the User continues to use the Add-on they agree to be bound to the current version of the Terms.
+
+## Support
+
+Please [submit a ticket](https://github.com/intelliavant/gas-markdown-converter/issues) in the GitHub repository of this project.
+
+**NOTE**: We are not responsible for any damages or corruptions to your document. If you get incorrect result from this add-on, please **Undo** the conversion by pressing `Ctrl-Z` (on Windows) or `Cmd-Z` (on macOS) **immediately** before you close the browser tab, to avoid any data loss.
